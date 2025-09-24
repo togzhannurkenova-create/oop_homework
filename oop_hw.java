@@ -468,7 +468,7 @@ public class Main {
         //20
 
 
-        String mainString = "apple,banana,cherry,orange";
+     /*   String mainString = "apple,banana,cherry,orange";
         char delimiter = ',';
 
         List<String> parts = splitByChar(mainString, delimiter);
@@ -496,7 +496,43 @@ public class Main {
             }
         }
         result.add(currentPart.toString());
-        return result;
+        return result; */
+
+   /*     public int sum(int n){
+  
+   if(n == 1){
+      return 1;
+   }
+  
+   return n + sum(n-1);
+} */
+
+    /*     Tester tester = new Tester();
+      int result = tester.sum(5);
+      System.out.println("Sum: " + result);
+   }
+
+   public int sum(int n){
+      System.out.println("Input: " + n);
+      int result;
+     
+      if(n == 1){
+         result = 1;
+         System.out.println("Base condition fulfilled.");
+      }else {  */
+
+
+
+     /*   Tester tester = new Tester();
+    
+      int result = tester.fact(5);
+      System.out.println("Factorial: " + result);
+   }
+  
+   public int fact(int n) {
+     
+      return n == 1 ? 1: n * fact(n-1); */
         
     }
+
 }
